@@ -16,5 +16,5 @@ jobs:
               docker build \
                 -t circleci-scala-sbt-git-jq \
                 .
-              docker push codestar/circleci-scala-sbt-git-jq:1.0.0
+              docker push codestar/circleci-scala-sbt-git-jq:release
             fi
